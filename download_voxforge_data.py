@@ -4,7 +4,7 @@ import tarfile
 from bs4 import BeautifulSoup
 
 # set two speakers for training/testing sets
-speaker = 'Aaaron'  # defines substring that is searched for in the tar file names
+speaker = 'Aaron'  # defines substring that is searched for in the tar file names
 voxforge_url = 'http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/Audio/Main/16kHz_16bit'
 target_folder = './Voxforge'
 
